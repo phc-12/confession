@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heart-container{
+    position: relative;
+    font-size: 350px; /* change the size of the heart shape*/
+    width: 1em;
+    text-align: center;
+}
+.fa-heart{
+    color: red;
+    position: relative;
+    z-index: 1;
+}
+.heart-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px; /*change the word-size*/
+    color: white; 
+    z-index: 2;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
